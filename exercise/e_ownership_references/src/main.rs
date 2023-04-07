@@ -15,9 +15,9 @@ fn main() {
     // String reference
     fn inspect(s: &String) {
         if s.ends_with("s") {
-            println!("plural")
+            println!("{} is plural", s)
         } else {
-            println!("singular")
+            println!("{} is singular", s)
         }
     }
     //
